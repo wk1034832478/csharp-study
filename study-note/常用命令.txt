@@ -1,0 +1,13 @@
+1. dotnet new console
+    在当前文件夹下创建新的控制台程序
+2. dotnet restore 解析生成资产（好像跟编译的意思差不多），有权访问生成项目所需的.NET Core包
+ 备注:
+    从 .NET Core 2.0 开始，无需运行 dotnet restore，
+    因为它由所有需要还原的命令隐式运行，
+    如 dotnet new、dotnet build 和 dotnet run。 
+    在执行显式还原有意义的某些情况下，
+    例如 Azure DevOps Services 中的持续集成生成中，
+    或在需要显式控制还原发生时间的生成系统中，
+    它仍然是有效的命令。
+3. dotnet run 运行程序
+4. 

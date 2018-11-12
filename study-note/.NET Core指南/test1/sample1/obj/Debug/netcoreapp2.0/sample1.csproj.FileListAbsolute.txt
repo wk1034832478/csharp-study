@@ -1,0 +1,10 @@
+F:\intyt\csharp\study-note\.NET Core指南\test1\sample1\bin\Debug\netcoreapp2.0\sample1.deps.json
+F:\intyt\csharp\study-note\.NET Core指南\test1\sample1\bin\Debug\netcoreapp2.0\sample1.runtimeconfig.json
+F:\intyt\csharp\study-note\.NET Core指南\test1\sample1\bin\Debug\netcoreapp2.0\sample1.runtimeconfig.dev.json
+F:\intyt\csharp\study-note\.NET Core指南\test1\sample1\bin\Debug\netcoreapp2.0\sample1.dll
+F:\intyt\csharp\study-note\.NET Core指南\test1\sample1\bin\Debug\netcoreapp2.0\sample1.pdb
+F:\intyt\csharp\study-note\.NET Core指南\test1\sample1\obj\Debug\netcoreapp2.0\sample1.csproj.CoreCompileInputs.cache
+F:\intyt\csharp\study-note\.NET Core指南\test1\sample1\obj\Debug\netcoreapp2.0\sample1.AssemblyInfoInputs.cache
+F:\intyt\csharp\study-note\.NET Core指南\test1\sample1\obj\Debug\netcoreapp2.0\sample1.AssemblyInfo.cs
+F:\intyt\csharp\study-note\.NET Core指南\test1\sample1\obj\Debug\netcoreapp2.0\sample1.dll
+F:\intyt\csharp\study-note\.NET Core指南\test1\sample1\obj\Debug\netcoreapp2.0\sample1.pdb
