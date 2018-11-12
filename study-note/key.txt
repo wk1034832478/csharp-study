@@ -1,0 +1,80 @@
+1. C#当中的枚举值直接输出是字符串，如果要转化为整型，需要使用强制转化
+2. 默认访问修饰符，类的默认访问表示符是internal 成员的默认访问标识符号是private
+3. C# 中的析构函数
+  类的析构函数,是类的一个特殊的成员函数,当类的对象超出范围时执行。
+  析构函数的名称是在类的名称前加上一个波浪形（~）作为前缀，它不返回值,也不带任何参数。
+  析构函数用于在结束程序（比如关闭文件、释放内存等）之前释放资源.析构函数不能继承或重载。
+4. C#中的setter 和 getter
+    class A
+    {
+      private int data;
+      // setter getter
+      public int MyData
+      {
+        set
+        {
+          Console.WriteLine("this is Setter");
+          data = value;
+        }
+        get
+        {
+          Console.WriteLine("this is getter");
+          return data;
+        }
+      }
+    }
+5. c#不支持多继承
+6. 抽象类在某种程度上与接口类似，但是，它们大多只是用在当只有少数方法由基类声明由派生类实现时。
+7. c#重载运算符号
+    // 重载运算符号
+		public static A operator+ (A a1, A a2) {
+			Console.WriteLine("c#使用重载运算符号");
+			return a1;
+		}
+8. 接口的特点：
+	接口的定义是指定一组函数成员而不实现成员的引用类型，其它类型和接口可以继承接口。定义还是很好理解的，但是没有反映特点，接口主要有以下特点：
+	 (1)通过接口可以实现多重继承，C# 接口的成员不能有 public、protected、internal、private 等修饰符。原因很简单，
+	 接口里面的方法都需要由外面接口实现去实现方法体，那么其修饰符必然是 public。C# 接口中的成员默认是 public 的，java 中是可以加 public 的。
+	 (2)接口成员不能有 new、static、abstract、override、virtual 修饰符。有一点要注意，当一个接口实现一个接口，这2个接口中有相同的方法时，
+	 可用 new 关键字隐藏父接口中的方法。
+	 (3)接口中只包含成员的签名，接口没有构造函数，所有不能直接使用 new 对接口进行实例化。接口中只能包含方法、属性、事件和索引的组合。
+	 接口一旦被实现，实现类必须实现接口中的所有成员，除非实现类本身是抽象类。
+	 (4)C# 是单继承，接口是解决 C# 里面类可以同时继承多个基类的问题。
+9. 嵌套的命名空间
+	嵌套命名空间
+	命名空间可以被嵌套，即您可以在一个命名空间内定义另一个命名空间，如下所示：
+	namespace namespace_name1 
+	{
+	   // 代码声明
+	   namespace namespace_name2 
+	   {
+	     // 代码声明
+	   }
+	}
+10. 反射应用
+	//获取类型信息
+	Type  t  =  Type.GetType("TestSpace.TestClass");
+	//构造器的参数
+	object[]  constuctParms  =  new  object[]{"timmy"};
+	//根据类型创建对象
+	object  dObj  =  Activator.CreateInstance(t,constuctParms);
+	//获取方法的信息
+	MethodInfo  method  =  t.GetMethod("GetValue");
+	//调用方法的一些标志位，这里的含义是Public并且是实例方法，这也是默认的值
+	BindingFlags  flag  =  BindingFlags.Public  |  BindingFlags.Instance;
+	//GetValue方法的参数
+	object[]  parameters  =  new  object[]{"Hello"};
+	//调用方法，用一个object接收返回值
+	object  returnValue  =  method.Invoke(dObj,flag,Type.DefaultBinder,parameters,null);
+	复制代码
+11. 委托
+	C# 委托（Delegate）
+	C# 中的委托（Delegate）类似于 C 或 C++ 中函数的指针。委托（Delegate） 是存有对某个方法的引用的一种引用类型变量。引用可在运行时被改变。
+	委托（Delegate）特别用于实现事件和回调方法。所有的委托（Delegate）都派生自 System.Delegate 类。
+	声明委托（Delegate）
+	委托声明决定了可由该委托引用的方法。委托可指向一个与其具有相同标签的方法。
+	例如，假设有一个委托：
+	public delegate int MyDelegate (string s);
+	上面的委托可被用于引用任何一个带有一个单一的 string 参数的方法，并返回一个 int 类型变量。
+	声明委托的语法如下：
+	delegate <return type> <delegate-name> <parameter list>
