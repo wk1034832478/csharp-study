@@ -1,0 +1,10 @@
+F:\intyt\csharp\bin\Debug\netcoreapp2.0\csharp.deps.json
+F:\intyt\csharp\bin\Debug\netcoreapp2.0\csharp.runtimeconfig.json
+F:\intyt\csharp\bin\Debug\netcoreapp2.0\csharp.runtimeconfig.dev.json
+F:\intyt\csharp\bin\Debug\netcoreapp2.0\csharp.dll
+F:\intyt\csharp\bin\Debug\netcoreapp2.0\csharp.pdb
+F:\intyt\csharp\obj\Debug\netcoreapp2.0\csharp.csproj.CoreCompileInputs.cache
+F:\intyt\csharp\obj\Debug\netcoreapp2.0\csharp.AssemblyInfoInputs.cache
+F:\intyt\csharp\obj\Debug\netcoreapp2.0\csharp.AssemblyInfo.cs
+F:\intyt\csharp\obj\Debug\netcoreapp2.0\csharp.dll
+F:\intyt\csharp\obj\Debug\netcoreapp2.0\csharp.pdb
