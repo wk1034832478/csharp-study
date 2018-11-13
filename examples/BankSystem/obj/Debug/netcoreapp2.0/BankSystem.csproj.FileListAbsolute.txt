@@ -1,0 +1,10 @@
+F:\intyt\csharp\examples\BankSystem\bin\Debug\netcoreapp2.0\BankSystem.deps.json
+F:\intyt\csharp\examples\BankSystem\bin\Debug\netcoreapp2.0\BankSystem.runtimeconfig.json
+F:\intyt\csharp\examples\BankSystem\bin\Debug\netcoreapp2.0\BankSystem.runtimeconfig.dev.json
+F:\intyt\csharp\examples\BankSystem\bin\Debug\netcoreapp2.0\BankSystem.dll
+F:\intyt\csharp\examples\BankSystem\bin\Debug\netcoreapp2.0\BankSystem.pdb
+F:\intyt\csharp\examples\BankSystem\obj\Debug\netcoreapp2.0\BankSystem.csproj.CoreCompileInputs.cache
+F:\intyt\csharp\examples\BankSystem\obj\Debug\netcoreapp2.0\BankSystem.AssemblyInfoInputs.cache
+F:\intyt\csharp\examples\BankSystem\obj\Debug\netcoreapp2.0\BankSystem.AssemblyInfo.cs
+F:\intyt\csharp\examples\BankSystem\obj\Debug\netcoreapp2.0\BankSystem.dll
+F:\intyt\csharp\examples\BankSystem\obj\Debug\netcoreapp2.0\BankSystem.pdb
